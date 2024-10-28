@@ -1,0 +1,76 @@
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    font-family: Arial, Helvetica,  sans-serif;
+    margin-bottom: 1rem;
+}
+
+.game-container h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+.second-column{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 28rem;
+}
+
+.second-column div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.game-container h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+.game-container input{
+    font-size: 2rem;
+    padding: 0 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #676767;
+    border-radius: 5px;
+}
+
+.game-container button{
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.play-again button{
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    background-color: #0074f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 1rem;
+}
